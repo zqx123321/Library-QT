@@ -1,0 +1,634 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;cxx;c;def</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h</Extensions>
+    </Filter>
+    <Filter Include="Form Files">
+      <UniqueIdentifier>{99349809-55BA-4b9d-BF79-8FDBB0286EB3}</UniqueIdentifier>
+      <Extensions>ui</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{D9D6E242-F8AF-46E4-B9FD-80ECBC20BA3E}</UniqueIdentifier>
+      <Extensions>qrc;*</Extensions>
+      <ParseFiles>false</ParseFiles>
+    </Filter>
+    <Filter Include="Generated Files">
+      <UniqueIdentifier>{71ED8ED8-ACB9-4CE9-BBE1-E00B30144E11}</UniqueIdentifier>
+      <Extensions>moc;h;cpp</Extensions>
+      <SourceControlFiles>False</SourceControlFiles>
+    </Filter>
+    <Filter Include="Generated Files\Debug">
+      <UniqueIdentifier>{f1dffadc-83f8-4189-bce3-36d891d23192}</UniqueIdentifier>
+      <Extensions>cpp;moc</Extensions>
+      <SourceControlFiles>False</SourceControlFiles>
+    </Filter>
+    <Filter Include="Generated Files\Release">
+      <UniqueIdentifier>{465b3007-7efb-4761-9448-09bb48fb552a}</UniqueIdentifier>
+      <Extensions>cpp;moc</Extensions>
+      <SourceControlFiles>False</SourceControlFiles>
+    </Filter>
+    <Filter Include="Header Files\Entity">
+      <UniqueIdentifier>{d7f62d73-5962-48b5-866e-35bf90df63ba}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Admin">
+      <UniqueIdentifier>{e8331d9a-513a-42e7-9d88-67a7dcf8933c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Student">
+      <UniqueIdentifier>{bbb6f855-e80f-4d03-87cc-66ff7a0856b5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Tool">
+      <UniqueIdentifier>{a855f6f7-dc92-49b6-a208-d466624b5625}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Form Files\Admin">
+      <UniqueIdentifier>{58d08e26-c154-4884-813a-440cf00f34d9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Form Files\Student">
+      <UniqueIdentifier>{22c64a9b-bb31-4b43-a356-f1aa694e0fca}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Admin">
+      <UniqueIdentifier>{9b3a3752-5b0d-4b38-9cb5-4efb25ed2538}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Student">
+      <UniqueIdentifier>{c4abf08c-e58f-42bc-b50e-7bb7927d266d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Tool">
+      <UniqueIdentifier>{95367789-9561-437a-b8cc-be95c6ef7a3c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Common">
+      <UniqueIdentifier>{62c57b92-07f6-435f-9ac0-0df3cc755d66}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Form Files\Common">
+      <UniqueIdentifier>{72e2cb48-7d16-4a7e-8e6d-d9e1ec22d993}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Common">
+      <UniqueIdentifier>{c7209e23-579f-442c-ac3a-c2ce19f48766}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_library.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_library.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\qrc_library.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_student_index.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_student_index.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_student_borrow.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_student_borrow.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_student_searchbook.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_student_searchbook.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_student_bookdetail.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_student_bookdetail.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="test.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_test.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_test.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_student_update.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_student_update.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_student_updatepassword.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_student_updatepassword.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_student_borrowdetail.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_student_borrowdetail.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_admin_index.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_admin_index.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_admin_updatepassword.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_admin_updatepassword.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_admin_searchuser.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_admin_searchuser.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_admin_searchbook.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_admin_searchbook.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_admin_userupdate.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_admin_userupdate.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_admin_adduser.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_admin_adduser.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_admin_bookupdate.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_admin_bookupdate.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_admin_addbook.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_admin_addbook.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_admin_classify.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_admin_classify.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="admin_addbook.cpp">
+      <Filter>Source Files\Admin</Filter>
+    </ClCompile>
+    <ClCompile Include="admin_adduser.cpp">
+      <Filter>Source Files\Admin</Filter>
+    </ClCompile>
+    <ClCompile Include="admin_bookupdate.cpp">
+      <Filter>Source Files\Admin</Filter>
+    </ClCompile>
+    <ClCompile Include="admin_classify.cpp">
+      <Filter>Source Files\Admin</Filter>
+    </ClCompile>
+    <ClCompile Include="admin_searchbook.cpp">
+      <Filter>Source Files\Admin</Filter>
+    </ClCompile>
+    <ClCompile Include="admin_index.cpp">
+      <Filter>Source Files\Admin</Filter>
+    </ClCompile>
+    <ClCompile Include="admin_searchuser.cpp">
+      <Filter>Source Files\Admin</Filter>
+    </ClCompile>
+    <ClCompile Include="admin_updatepassword.cpp">
+      <Filter>Source Files\Admin</Filter>
+    </ClCompile>
+    <ClCompile Include="admin_userupdate.cpp">
+      <Filter>Source Files\Admin</Filter>
+    </ClCompile>
+    <ClCompile Include="student_borrow.cpp">
+      <Filter>Source Files\Student</Filter>
+    </ClCompile>
+    <ClCompile Include="student_bookdetail.cpp">
+      <Filter>Source Files\Student</Filter>
+    </ClCompile>
+    <ClCompile Include="student_borrowdetail.cpp">
+      <Filter>Source Files\Student</Filter>
+    </ClCompile>
+    <ClCompile Include="student_index.cpp">
+      <Filter>Source Files\Student</Filter>
+    </ClCompile>
+    <ClCompile Include="student_searchbook.cpp">
+      <Filter>Source Files\Student</Filter>
+    </ClCompile>
+    <ClCompile Include="student_update.cpp">
+      <Filter>Source Files\Student</Filter>
+    </ClCompile>
+    <ClCompile Include="student_updatepassword.cpp">
+      <Filter>Source Files\Student</Filter>
+    </ClCompile>
+    <ClCompile Include="userConfig.cpp">
+      <Filter>Source Files\Tool</Filter>
+    </ClCompile>
+    <ClCompile Include="bookConfig.cpp">
+      <Filter>Source Files\Tool</Filter>
+    </ClCompile>
+    <ClCompile Include="library.cpp">
+      <Filter>Source Files\Common</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_student_repay.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_student_repay.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="student_repay.cpp">
+      <Filter>Source Files\Student</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_student_order.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_student_order.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="student_order.cpp">
+      <Filter>Source Files\Student</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_student_classify.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_student_classify.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="student_classify.cpp">
+      <Filter>Source Files\Student</Filter>
+    </ClCompile>
+    <ClCompile Include="classifyConfig.cpp">
+      <Filter>Source Files\Tool</Filter>
+    </ClCompile>
+    <ClCompile Include="recommendBuffer.cpp">
+      <Filter>Source Files\Tool</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_Thread.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_Thread.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="Thread.cpp">
+      <Filter>Source Files\Common</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_admin_classifyshow.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_admin_classifyshow.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="admin_classifyshow.cpp">
+      <Filter>Source Files\Admin</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_admin_studentclassify.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_admin_studentclassify.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="admin_studentclassify.cpp">
+      <Filter>Source Files\Admin</Filter>
+    </ClCompile>
+    <ClCompile Include="studentClassifyConfig.cpp">
+      <Filter>Source Files\Tool</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_admin_bookdetail.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_admin_bookdetail.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="admin_bookdetail.cpp">
+      <Filter>Source Files\Admin</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_admin_addclassify.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_admin_addclassify.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="admin_addclassify.cpp">
+      <Filter>Source Files\Admin</Filter>
+    </ClCompile>
+    <ClCompile Include="filedb.cpp">
+      <Filter>Source Files\Common</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_selectData.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_selectData.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="selectData.cpp">
+      <Filter>Source Files\Common</Filter>
+    </ClCompile>
+    <ClCompile Include="readexcel.cpp">
+      <Filter>Source Files\Common</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="library.qrc">
+      <Filter>Resource Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="test.ui">
+      <Filter>Form Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="admin_addbook.h">
+      <Filter>Header Files\Admin</Filter>
+    </CustomBuild>
+    <CustomBuild Include="admin_adduser.h">
+      <Filter>Header Files\Admin</Filter>
+    </CustomBuild>
+    <CustomBuild Include="admin_bookupdate.h">
+      <Filter>Header Files\Admin</Filter>
+    </CustomBuild>
+    <CustomBuild Include="admin_classify.h">
+      <Filter>Header Files\Admin</Filter>
+    </CustomBuild>
+    <CustomBuild Include="admin_index.h">
+      <Filter>Header Files\Admin</Filter>
+    </CustomBuild>
+    <CustomBuild Include="admin_searchbook.h">
+      <Filter>Header Files\Admin</Filter>
+    </CustomBuild>
+    <CustomBuild Include="admin_searchuser.h">
+      <Filter>Header Files\Admin</Filter>
+    </CustomBuild>
+    <CustomBuild Include="admin_updatepassword.h">
+      <Filter>Header Files\Admin</Filter>
+    </CustomBuild>
+    <CustomBuild Include="admin_userupdate.h">
+      <Filter>Header Files\Admin</Filter>
+    </CustomBuild>
+    <CustomBuild Include="student_bookdetail.h">
+      <Filter>Header Files\Student</Filter>
+    </CustomBuild>
+    <CustomBuild Include="student_borrow.h">
+      <Filter>Header Files\Student</Filter>
+    </CustomBuild>
+    <CustomBuild Include="student_borrowdetail.h">
+      <Filter>Header Files\Student</Filter>
+    </CustomBuild>
+    <CustomBuild Include="student_index.h">
+      <Filter>Header Files\Student</Filter>
+    </CustomBuild>
+    <CustomBuild Include="student_searchbook.h">
+      <Filter>Header Files\Student</Filter>
+    </CustomBuild>
+    <CustomBuild Include="student_update.h">
+      <Filter>Header Files\Student</Filter>
+    </CustomBuild>
+    <CustomBuild Include="student_updatepassword.h">
+      <Filter>Header Files\Student</Filter>
+    </CustomBuild>
+    <CustomBuild Include="admin_addbook.ui">
+      <Filter>Form Files\Admin</Filter>
+    </CustomBuild>
+    <CustomBuild Include="admin_adduser.ui">
+      <Filter>Form Files\Admin</Filter>
+    </CustomBuild>
+    <CustomBuild Include="admin_bookupdate.ui">
+      <Filter>Form Files\Admin</Filter>
+    </CustomBuild>
+    <CustomBuild Include="admin_classify.ui">
+      <Filter>Form Files\Admin</Filter>
+    </CustomBuild>
+    <CustomBuild Include="admin_index.ui">
+      <Filter>Form Files\Admin</Filter>
+    </CustomBuild>
+    <CustomBuild Include="admin_searchbook.ui">
+      <Filter>Form Files\Admin</Filter>
+    </CustomBuild>
+    <CustomBuild Include="admin_searchuser.ui">
+      <Filter>Form Files\Admin</Filter>
+    </CustomBuild>
+    <CustomBuild Include="admin_updatepassword.ui">
+      <Filter>Form Files\Admin</Filter>
+    </CustomBuild>
+    <CustomBuild Include="admin_userupdate.ui">
+      <Filter>Form Files\Admin</Filter>
+    </CustomBuild>
+    <CustomBuild Include="student_borrow.ui">
+      <Filter>Form Files\Student</Filter>
+    </CustomBuild>
+    <CustomBuild Include="student_bookdetail.ui">
+      <Filter>Form Files\Student</Filter>
+    </CustomBuild>
+    <CustomBuild Include="student_borrowdetail.ui">
+      <Filter>Form Files\Student</Filter>
+    </CustomBuild>
+    <CustomBuild Include="student_index.ui">
+      <Filter>Form Files\Student</Filter>
+    </CustomBuild>
+    <CustomBuild Include="student_searchbook.ui">
+      <Filter>Form Files\Student</Filter>
+    </CustomBuild>
+    <CustomBuild Include="student_update.ui">
+      <Filter>Form Files\Student</Filter>
+    </CustomBuild>
+    <CustomBuild Include="test.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="library.h">
+      <Filter>Header Files\Common</Filter>
+    </CustomBuild>
+    <CustomBuild Include="library.ui">
+      <Filter>Form Files\Common</Filter>
+    </CustomBuild>
+    <CustomBuild Include="student_repay.h">
+      <Filter>Header Files\Student</Filter>
+    </CustomBuild>
+    <CustomBuild Include="student_repay.ui">
+      <Filter>Form Files\Student</Filter>
+    </CustomBuild>
+    <CustomBuild Include="student_order.ui">
+      <Filter>Form Files\Student</Filter>
+    </CustomBuild>
+    <CustomBuild Include="student_order.h">
+      <Filter>Header Files\Student</Filter>
+    </CustomBuild>
+    <CustomBuild Include="student_updatepassword.ui">
+      <Filter>Form Files\Student</Filter>
+    </CustomBuild>
+    <CustomBuild Include="student_classify.ui">
+      <Filter>Form Files\Student</Filter>
+    </CustomBuild>
+    <CustomBuild Include="student_classify.h">
+      <Filter>Header Files\Student</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Thread.h">
+      <Filter>Header Files\Common</Filter>
+    </CustomBuild>
+    <CustomBuild Include="recommendBuffer.h">
+      <Filter>Header Files\Tool</Filter>
+    </CustomBuild>
+    <CustomBuild Include="admin_classifyshow.ui">
+      <Filter>Form Files\Admin</Filter>
+    </CustomBuild>
+    <CustomBuild Include="admin_classifyshow.h">
+      <Filter>Header Files\Admin</Filter>
+    </CustomBuild>
+    <CustomBuild Include="admin_studentclassify.ui">
+      <Filter>Form Files\Admin</Filter>
+    </CustomBuild>
+    <CustomBuild Include="admin_studentclassify.h">
+      <Filter>Header Files\Admin</Filter>
+    </CustomBuild>
+    <CustomBuild Include="admin_bookdetail.ui">
+      <Filter>Form Files\Admin</Filter>
+    </CustomBuild>
+    <CustomBuild Include="admin_bookdetail.h">
+      <Filter>Header Files\Admin</Filter>
+    </CustomBuild>
+    <CustomBuild Include="admin_addclassify.ui">
+      <Filter>Form Files\Admin</Filter>
+    </CustomBuild>
+    <CustomBuild Include="admin_addclassify.h">
+      <Filter>Header Files\Admin</Filter>
+    </CustomBuild>
+    <CustomBuild Include="selectData.ui">
+      <Filter>Form Files\Common</Filter>
+    </CustomBuild>
+    <CustomBuild Include="selectData.h">
+      <Filter>Header Files\Common</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="GeneratedFiles\ui_library.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_student_index.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_student_borrow.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_student_searchbook.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_student_bookdetail.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_test.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_student_update.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_student_updatepassword.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_student_borrowdetail.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_admin_index.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_admin_updatepassword.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_admin_searchuser.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_admin_searchbook.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_admin_userupdate.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_admin_adduser.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_admin_bookupdate.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_admin_addbook.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_admin_classify.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="admin.h">
+      <Filter>Header Files\Entity</Filter>
+    </ClInclude>
+    <ClInclude Include="book.h">
+      <Filter>Header Files\Entity</Filter>
+    </ClInclude>
+    <ClInclude Include="classify.h">
+      <Filter>Header Files\Entity</Filter>
+    </ClInclude>
+    <ClInclude Include="record.h">
+      <Filter>Header Files\Entity</Filter>
+    </ClInclude>
+    <ClInclude Include="student.h">
+      <Filter>Header Files\Entity</Filter>
+    </ClInclude>
+    <ClInclude Include="bookMap.h">
+      <Filter>Header Files\Entity</Filter>
+    </ClInclude>
+    <ClInclude Include="bookConfig.h">
+      <Filter>Header Files\Tool</Filter>
+    </ClInclude>
+    <ClInclude Include="userConfig.h">
+      <Filter>Header Files\Tool</Filter>
+    </ClInclude>
+    <ClInclude Include="filedb.h">
+      <Filter>Header Files\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_student_repay.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_student_order.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_student_classify.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="classifyConfig.h">
+      <Filter>Header Files\Tool</Filter>
+    </ClInclude>
+    <ClInclude Include="classifyMap.h">
+      <Filter>Header Files\Entity</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_admin_classifyshow.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_admin_studentclassify.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="dept.h">
+      <Filter>Header Files\Entity</Filter>
+    </ClInclude>
+    <ClInclude Include="studentClassifyConfig.h">
+      <Filter>Header Files\Tool</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_admin_bookdetail.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_admin_addclassify.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_selectData.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="readexcel.h">
+      <Filter>Header Files\Common</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

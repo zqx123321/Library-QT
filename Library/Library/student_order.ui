@@ -1,0 +1,23 @@
+<UI version="4.0" >
+ <class>student_order</class>
+ <widget class="QWidget" name="student_order" >
+  <property name="objectName" >
+   <string notr="true">student_order</string>
+  </property>
+  <property name="geometry" >
+   <rect>
+	<x>0</x>
+	<y>0</y>
+	<width>400</width>
+	<height>300</height>
+   </rect>
+  </property>
+  <property name="windowTitle" >
+   <string>student_order</string>
+  </property>  
+ </widget>
+ <layoutDefault spacing="6" margin="11" />
+ <pixmapfunction></pixmapfunction>
+ <resources/>
+ <connections/>
+</UI>

@@ -1,0 +1,12 @@
+﻿  admin_addbook.cpp
+student_repay.obj : error LNK2001: 无法解析的外部符号 "public: static void __cdecl recommendBuffer::Resert(void)" (?Resert@recommendBuffer@@SAXXZ)
+student_searchbook.obj : error LNK2001: 无法解析的外部符号 "public: static void __cdecl recommendBuffer::Resert(void)" (?Resert@recommendBuffer@@SAXXZ)
+student_update.obj : error LNK2001: 无法解析的外部符号 "public: static void __cdecl recommendBuffer::Resert(void)" (?Resert@recommendBuffer@@SAXXZ)
+student_updatepassword.obj : error LNK2001: 无法解析的外部符号 "public: static void __cdecl recommendBuffer::Resert(void)" (?Resert@recommendBuffer@@SAXXZ)
+student_bookdetail.obj : error LNK2001: 无法解析的外部符号 "public: static void __cdecl recommendBuffer::Resert(void)" (?Resert@recommendBuffer@@SAXXZ)
+student_borrowdetail.obj : error LNK2001: 无法解析的外部符号 "public: static void __cdecl recommendBuffer::Resert(void)" (?Resert@recommendBuffer@@SAXXZ)
+student_classify.obj : error LNK2001: 无法解析的外部符号 "public: static void __cdecl recommendBuffer::Resert(void)" (?Resert@recommendBuffer@@SAXXZ)
+student_index.obj : error LNK2001: 无法解析的外部符号 "public: static void __cdecl recommendBuffer::Resert(void)" (?Resert@recommendBuffer@@SAXXZ)
+student_index.obj : error LNK2019: 无法解析的外部符号 "public: static class QVector<class QString> recommendBuffer::urlBufferLocal" (?urlBufferLocal@recommendBuffer@@2V?$QVector@VQString@@@@A)，该符号在函数 "public: void __cdecl student_index::InitThisPage(void)" (?InitThisPage@student_index@@QEAAXXZ) 中被引用
+student_index.obj : error LNK2019: 无法解析的外部符号 "public: static class QString recommendBuffer::headUrlLocal" (?headUrlLocal@recommendBuffer@@2VQString@@A)，该符号在函数 "public: void __cdecl student_index::InitThisPage(void)" (?InitThisPage@student_index@@QEAAXXZ) 中被引用
+C:\Users\zqx\Desktop\UML\Library\x64\Release\\Library.exe : fatal error LNK1120: 3 个无法解析的外部命令
